@@ -39,5 +39,4 @@ function searchAddressHandler(event: Event) {
       console.log(err);
     });
 }
-
 form.addEventListener("submit", searchAddressHandler);
